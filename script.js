@@ -13,7 +13,7 @@
       };
   
       // Use Fetch API to send the form data
-      fetch("http://localhost:7000/", {
+      fetch('http://localhost:7000/', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
